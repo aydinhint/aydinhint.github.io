@@ -14,7 +14,7 @@
     margin: 40px;
     padding: 20px;
     border-radius: 25px;
-    border-style: dashed;
+    border-style: double;
     text-align: center;
     background-color: rgba(240, 248, 255, 0.25);
 }
