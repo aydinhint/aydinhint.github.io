@@ -1,20 +1,37 @@
-.title {
+.body {
+    background-color: lightsalmon;
+}
+
+.mainTitle {
     text-align: center;
     border-style: double;
     margin: 50px;
     padding: 20px;
     background-color: rgba(240, 248, 255, 0.25);
+    text-decoration: underline;
 }
 
-.body {
-    background-color: lightsalmon;
+.minorTitle {
+    text-decoration: underline;
 }
 
 .block {
+    text-align: center;
+    border-style: double;
     margin: 40px;
     padding: 20px;
+    background-color: rgba(240, 248, 255, 0.25);
     border-radius: 25px;
-    border-style: double;
+}
+
+ul {
+    text-align: left;
+    list-style-position: inside;
+}
+
+.footer {
     text-align: center;
+    border-style: solid;
+    padding: 10px;
     background-color: rgba(240, 248, 255, 0.25);
 }
