@@ -5,15 +5,30 @@
 
 .mainTitle {
     text-align: center;
-    border-style: double;
+    border-style: solid;
     margin: 50px;
     padding: 20px;
     background-color: rgba(240, 248, 255, 0.25);
     text-decoration: underline;
+    border-color: black;
+    animation: titleColorChange 7s infinite;
+}
+
+@keyframes titleColorChange {
+    50% {border-color: white}
+    /* from {border-color: black;}
+    to {border-color: white;} */
+    /* to {border-color: black;} */
 }
 
 .minorTitle {
     text-decoration: underline;
+    text-decoration-color: black;
+    animation: underlineColorChange 7s infinite;
+}
+
+@keyframes underlineColorChange {
+    50% {text-decoration-color: white;}
 }
 
 .block {
