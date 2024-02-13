@@ -11,24 +11,13 @@
     background-color: rgba(240, 248, 255, 0.25);
     text-decoration: underline;
     border-color: black;
-    animation: titleColorChange 7s infinite;
+    color: black;
+    animation: mainTitleColorChange 7s infinite;
 }
 
-@keyframes titleColorChange {
+@keyframes mainTitleColorChange {
     50% {border-color: white}
-    /* from {border-color: black;}
-    to {border-color: white;} */
-    /* to {border-color: black;} */
-}
-
-.minorTitle {
-    text-decoration: underline;
-    text-decoration-color: black;
-    animation: underlineColorChange 7s infinite;
-}
-
-@keyframes underlineColorChange {
-    50% {text-decoration-color: white;}
+    50% {color: white;}
 }
 
 .block {
@@ -38,6 +27,21 @@
     padding: 20px;
     background-color: rgba(240, 248, 255, 0.25);
     border-radius: 25px;
+}
+
+.minorTitleAnimated {
+    text-decoration: underline;
+    text-decoration-color: black;
+    color: black;
+    animation: textColorChange 7s infinite;
+}
+
+@keyframes textColorChange {
+    50% {color: white;}
+}
+
+.minorTitle {
+    text-decoration: underline;
 }
 
 ul {
