@@ -55,3 +55,11 @@ ul {
     padding: 10px;
     background-color: rgba(240, 248, 255, 0.25);
 }
+
+.projectBlock {
+    text-align: center;
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(240, 248, 255, 0.25);
+}
